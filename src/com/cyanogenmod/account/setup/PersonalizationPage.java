@@ -125,7 +125,7 @@ public class PersonalizationPage extends Page {
             boolean needsNavBar = true;
             try {
                 IWindowManager windowManager = WindowManagerGlobal.getWindowManagerService();
-                needsNavBar = windowManager.needsNavigationBar();
+                needsNavBar = windowManager.hasNavigationBar();
             } catch (RemoteException e) {
             }
 
@@ -183,7 +183,7 @@ public class PersonalizationPage extends Page {
                 com.android.internal.R.integer.config_buttonBrightnessSettingDefault);
 
         Settings.System.putInt(context.getContentResolver(),
-                Settings.System.DEV_FORCE_SHOW_NAVBAR, enabled ? 1 : 0);
+                Settings.System.NAVIGATION_BAR_SHOW, enabled ? 1 : 0);
         KeyDisabler.setActive(enabled);
 
         if (enabled) {
