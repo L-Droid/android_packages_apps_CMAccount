@@ -37,7 +37,7 @@
   <string name="setup_welcome_summary" product="tablet">要開始設定你的平板電腦之前，請選擇你的語言然後繼續。</string>
   <string name="setup_welcome_summary" product="default">要開始設定你的電話之前，請選擇你的語言然後繼續。</string>
   <string name="setup_cmaccount">設定您的 CyanogenMod 帳戶</string>
-  <string name="setup_sim_missing">請插入 SIM 卡</string>
+  <string name="setup_sim_missing">請插入 SIM 咭</string>
   <string name="setup_google_account">Google 帳戶</string>
   <string name="setup_location">地理位置設定</string>
   <string name="setup_datetime">日期與時間設定</string>
@@ -46,7 +46,6 @@
   <string name="setup_msg_no_network">警告：你將無法設定你的帳戶</string>
   <string name="setup_warning_skip_wifi" product="tablet">警告：你可能需支付額外的數據傳輸費用。\n\n平板電腦設定程式可能需要佔用大量網絡流量。</string>
   <string name="setup_warning_skip_wifi" product="default">警告：你可能需支付額外的數據傳輸費用。\n\n電話設定程式可能需要佔用大量網絡流量。</string>
-  <string name="setup_privacy">私隱設定</string>
   <string name="setup_personalization">個人化</string>
   <string name="setup_finalizing">正在最終確定設定\u2026</string>
   <string name="cmaccount_setup_create_title">建立一個 CyanogenMod 帳戶</string>
@@ -78,8 +77,8 @@
   <string name="cmaccount_create_account_error_title">在建立帳號中出現錯誤</string>
   <string name="cmaccount_server_error_message">與伺服器通訊時發生錯誤。請稍後再試。</string>
   <string name="cmaccount_error_multiple_accounts">一個流動裝置只允許存在一個 CyanogenMod 帳戶</string>
-  <string name="sim_missing_summary" product="tablet">你需要參考平板電腦附帶的 SIM 卡說明。</string>
-  <string name="sim_missing_summary" product="default">你需要參考電話附帶的 SIM 卡說明。</string>
+  <string name="sim_missing_summary" product="tablet">你需要參考平板電腦附帶的 SIM 咭說明。</string>
+  <string name="sim_missing_summary" product="default">你需要參考電話附帶的 SIM 咭說明。</string>
   <string name="google_account_summary">你想建立一個 Google 帳戶？</string>
   <string name="btn_google_account">建立 Google 帳戶</string>
   <string name="whisperpush_title">啟用安全短訊</string>
@@ -88,7 +87,6 @@
   <string name="use_nav_keys">使用螢幕上的按鈕</string>
   <string name="location_access_title">存取我的位置</string>
   <string name="location_access_summary">允許獲得您許可的應用程式使用您的位置資訊</string>
-  <string name="location_sources_heading">位置資訊來源</string>
   <string name="location_gps">GPS 衛星</string>
   <string name="location_street_level" product="tablet">允許應用程式使用平板電腦的 GPS 指出您的精確位置</string>
   <string name="location_street_level" product="default">允許應用程式使用電話的 GPS 指出您的精確位置</string>
